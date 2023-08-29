@@ -1,0 +1,5 @@
+Crie um arquivo .env
+
+Adicione o link de conexão com o seu banco de dados.
+Ex:
+MONGODB_URI=mongodb+srv://seuUsuario:suaSenha@apibooks.xscvmrg.mongodb.net/sua_base_de_dados?retryWrites=true&w=majority
