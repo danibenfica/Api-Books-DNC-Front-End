@@ -15,7 +15,7 @@ const db = mongoose.connection
 db.on('error', (error) => console.error('Erro ao conectar ao banco de dados:', error))
 db.once('open', () => console.log('Conectado ao banco de dados!'))
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 8080
 
 app.use(cors())
 app.use(express.json())
